@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>顺电网上商城-高端家电购物商城，正品保障-支持送货上门</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body>
+    <!-- 中部固定加入购物车提示模态框 -->
+
+    <div class="moudle">
+        <div class="moudle-close">x</div>
+        <div style="margin-bottom:30px;">成功加入购物车!</div>
+        <div class="moudle-con f-l">继续购物</div>
+        <a class="moudle-go f-l" href="car.html" target="_blank">去购物车结算</a>
+    </div>
+    <!-- 右侧固定栏 -->
+    <div class="fix-right">
+        <a class="fix-right-t" style="cursor: pointer;">
+            <i></i><span>0</span>
+            <div class="login-main">
+                    <div class="log-close">x</div>
+                    <h2>用户登录</h2>
+                    <div class="logname">
+                        <span></span>
+                        <input class="login-name f-l" type="text" placeholder="请输入手机号登录">
+                    </div>
+                    <div class="name-error"></div>
+                    <div class="logpass">
+                        <span></span>
+                        <input class="login-pass" type="text" placeholder="填写密码">
+                    </div>
+                    <div class="pass-error"></div>
+                    <div class="loghelp">
+                        <a href="#">忘记登陆密码？</a>
+                        <a href="register.html">免费注册</a>
+                    </div>
+                    <div class="btn">登&nbsp;&nbsp;&nbsp;&nbsp;录</div>
+                </div>
+        </a>
+        <a class="fix-right-t" href="#"><i></i></a>
+        <a class="fix-right-t" href="#"><i></i></a>
+        <a href="#"><span></span><i></i></a>
+        <a class="fix-toTop"></a>
+        <a href="#"></a>
+    </div>
+
+    <!-- 右侧固定购物车栏 -->
+    <div class="fixcar-right">
+        <div class="fixcar-right-t">
+            <input class="check-all" type="checkbox" checked>全选           
+        </div>
+        <div class="fixcar-right-in">
+            
+            <ul class="fixcar-right-c">
+                <!-- <li class="fixcar-right-li">
+                    <div class="fixcar-right-li-l f-l">
+                        <input class="check-this" type="checkbox" checked>
+                    </div>
+                    <div class="fixcar-right-li-r f-l">
+                        <div class="fixcar-right-li-r-t">华为（HUAWEI）P20 6GB+128GB AI智慧全面</div>
+                        <div class="fixcar-right-li-r-b">
+                            <div class="fixcar-right-li-del">x</div>
+                            <a href="detail.html?001" class="fixcar-img f-l">
+                                <img src="https://sundan.com/public/images/22/09/87/93fb8b462279439891a8c20454df922a66533d49.jpg?1529904289#h" >
+                            </a>
+                            <div class="fixcar-val f-l">
+                                    <div class="num-cut f-l">-</div>
+                                    <input class="num-value f-l" type="text" value="1">
+                                    <div class="num-add f-l">+</div>
+                            </div>
+                            <div class="fixcar-price f-l">3588.00</div>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+            
+        </div>
+        <div class="fixcar-right-b">
+                
+                <div class="fixcar-right-b-t"><span>已选择<i class="fixcar-right-num">0</i>件商品</span><span>￥<i class="fixcar-right-price">0</i>.00</span></div>
+                <a class="fixcar-right-b-b" href="car.html">结算</a>
+        </div>
+    </div>
+
+    <!-- 上部固定搜索栏与左部固定导航栏 -->
+    <div class="fix-search">
+        <div class="search layout search-inOut">
+            <a class="search-left f-l" href="#"></a>
+            <div class="search-right f-r">
+                <div class="search-right-1 f-l"></div>
+                <input class="search-right-2 f-l" type="text">
+                <button class="search-right-3 f-l">搜索</button>
+                <a class="search-right-4 f-l" href="register.html">注册</a>
+                <a class="search-right-5 f-l" href="login.html">登陆</a>
+                <a class="search-vip f-l" href="vip.html" target="_blank" title="点击进入会员中心">
+                        <span></span>的账户
+                </a>
+                <a class="search-right-6 f-l" target="_blank">
+                    <span class="car-num">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <ul class="fix-left">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- 左下固定咨询栏 -->
+    <a href="#" class="fix-leftBot"><span>点击咨询</span></a>
+
+    <!-- 右下固定活动栏 -->
+    <a href="activity.html" target="_blank" class="fix-rightBot"><span class="fix-rightBot-close">x</span></a>
+
+    <!-- 网页关灯效果 -->
+    <div class="light"></div>
+
+    <!-- 头部可关闭活动页，每次刚进入加载 -->
+    <div class="head-inOut"></div>
+
+    <!-- 头部导航页 -->
+    <div class="header" id="header"></div>
+
+    <!-- 头部搜索框所在页 -->
+    <div class="head-search"></div>
+
+    <!-- 主导航条及二级菜单 -->
+    <div class="main-nav"></div>
+
+    <!-- 主轮播图部分 -->
+    <div class="imagesBox">
+        <div class="imagesList">
+            <a href="activity.html" target="_blank" style="background:url(https://www.sundan.com/public/images/59/18/e4/96f2af14a01ab8534b064bacbcbbce7beb1a43b2.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/77/31/96/1ccf747c93512790cf181c8816b40109ae99ad58.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/e4/10/6e/38dca5a265f89864cf6bd651b139c312cd719b89.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/5a/aa/b6/b7f516f8025dca7aa504d3f7344c01b75a8d5110.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/f3/e4/4b/59b942ce24ac4120d5e8e910b5f3d017b9739071.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/02/f8/6e/5c00baceca9e51df996f0885e78ecd67a0d09278.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/93/ce/7f/07bfb8535084f4f0c889d7c9c3d8f950d1b62c69.jpg) no-repeat center;"></a>
+            <a href="#" style="background:url(https://www.sundan.com/public/images/60/b3/87/99faf6e3c467ad91efb8d5c9c9bfafadae108dc8.jpg) no-repeat center;"></a>
+        </div>
+        <div class="iLeft"></div>
+        <div class="iRight"></div>
+        <ul class="imagesNav">
+            <li class="iActive">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+    </div>
+
+    <!-- 楼层上部 start -->
+    <div class="shopFloor">
+        <div class="shop-list layout">
+            <!-- <div class="shop-show">
+                <h1>推荐</h1>
+                <div class="shop-show-top">
+                    <div class="shop-show-top-l f-l">RECOMMEND</div>
+                    <div class="shop-show-top-r f-r">
+                        <a href="#">More+</a>
+                        <a href="#">新品</a>
+                        <a href="#">电动牙刷</a>
+                        <a href="#">相机</a>
+                        <a href="#">笔记本电脑</a>
+                    </div>
+                </div>
+                <ul class="shop-show-bot">
+                    <li class="shop-show-bot-in f-l">
+                        <a class="shop-show-img" href="detail.html"><img src="https://sundan.com/public/images/64/1b/5a/81b5d3a638007534e3e962ffc5600fe31f387c86.jpg" /></a>
+                        <div class="shop-show-title">【黑色和极光色现货】华为（HUAWEI）P20 6GB+128GB AI智慧全面屏 全网通 移动联通电信4G手机EML-AL00</div>
+                        <div class="shop-show-par">● 麒麟970智慧芯片,AI摄影大师</div>
+                        <div class="shop-show-price">￥<span>3888.00</span></div>
+                        <div class="shop-show-active" style="display:block">减价</div>
+                        <div class="shop-show-car">
+                            <div class="shop-show-price">￥<span>3888.00</span></div>
+                            <div class="shop-show-add" shopID=0>加入购物车</div>
+                        </div>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- 楼层上部 end -->
+
+    <!-- 楼层中部 start-->
+    <div class="shopFloor-center">
+        <div class="shop-center layout">
+            <!-- <div class="shop-show">
+                <h1>发现</h1>
+                <div class="shop-show-top">
+                    <div class="shop-show-top-l f-l">DISCOVERY</div>
+                    <div class="shop-show-top-r f-r">
+                        <a href="#">More+</a>
+                        <a href="#">电脑办公</a>
+                        <a href="#">慢品生活</a>
+                        <a href="#">净化器</a>
+                    </div>
+                </div>
+                <div class="shop-center-bot">
+                    <div class="shop-center-bot-l">
+                        <a class="shop-center-bot1" href="#"><img src=""/></a>
+                        <a class="shop-center-bot2" href="#"><img src=""/></a>
+                        <a class="shop-center-bot2" href="#"><img src=""/></a>
+                    </div>                    
+                    <a class="shop-center-bot3" href="#"><img src=""/></a>
+                    <a class="shop-center-bot3" href="#"><img src=""/></a>
+                    <a class="shop-center-bot4" href="#"><img src=""/></a>                   
+                    <a class="shop-center-bot3" href="#"><img src=""/></a>
+                    <a class="shop-center-bot3" href="#"><img src=""/></a>
+                    <a class="shop-center-bot5" href="#"><img src=""/></a>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    <!-- 楼层中部 end-->
+
+    <!-- 楼层底部 start-->
+    <div class="shopFloor-bot">
+            <div class="shop-bot layout">
+                <div class="shop-show">
+                    <h1>味</h1>
+                    <div class="shop-show-top">
+                        <div class="shop-show-top-l f-l">DELICIOUS FOOD</div>
+                        <div class="shop-show-top-r f-r">
+                            <a href="#">More+</a>
+                            <a href="#">下午茶</a>
+                            <a href="#">健康瘦身</a>
+                            <a href="#">早餐</a>
+                        </div>
+                    </div>
+                    <div class="shop-bot-bot">
+                        <a style="background:url(https://www.sundan.com/public/images/4c/12/c6/5c49289b735b974ddc7367b8fb1ff0647749e64b.jpg)no-repeat center;background-size: 100% 100%;" href="#"><span><i>GO</i></span></a>
+                        <a style="background:url(https://www.sundan.com/public/images/ef/9b/32/8b9febd3c3ae07ed95e0f6f58f1ff2ef8c5de8a5.jpg)no-repeat center;background-size: 100% 100%;" href="#"><span><i>GO</i></span></a>
+                        <a style="background:url(https://www.sundan.com/public/images/e8/e4/07/590a366aaeb7b7eeb6c0072f89405fbdab11187f.jpg)no-repeat center;background-size: 100% 100%;" href="#"><span><i>GO</i></span></a>
+                        <a style="background:url(https://www.sundan.com/public/images/35/57/a6/88c80080556cb6e4abb7d57db94a80dc90a0f632.jpg)no-repeat center;background-size: 100% 100%;" href="#"><span><i>GO</i></span></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    <!-- 楼层底部 end-->
+
+    <!-- 楼层四季层 start -->
+    <div class="shopFloor-season">
+        <div class="shop-season layout">
+            <!-- <div class="shop-show">
+                <h1>推荐</h1>
+                <div class="shop-show-top">
+                    <div class="shop-show-top-l f-l">RECOMMEND</div>
+                    <div class="shop-show-top-r f-r">
+                        <a href="#">More+</a>
+                        <a href="#">新品</a>
+                        <a href="#">电动牙刷</a>
+                        <a href="#">相机</a>
+                        <a href="#">笔记本电脑</a>
+                    </div>
+                </div>
+                <ul class="shop-show-bot">
+                    <li class="shop-season-pic shop-show-bot-in"><a href="#"><img src="https://www.sundan.com/public/images/5e/49/05/49e3f898d8a7aa020055255d3dc198fcc58b47a0.jpg?1533539183#w"></a></li>
+                    <li class="shop-show-bot-in f-l">
+                        <a class="shop-show-img" href="detail.html"><img src="https://sundan.com/public/images/64/1b/5a/81b5d3a638007534e3e962ffc5600fe31f387c86.jpg" /></a>
+                        <div class="shop-show-title">【黑色和极光色现货】华为（HUAWEI）P20 6GB+128GB AI智慧全面屏 全网通 移动联通电信4G手机EML-AL00</div>
+                        <div class="shop-show-par">● 麒麟970智慧芯片,AI摄影大师</div>
+                        <div class="shop-show-price">￥<span>3888.00</span></div>
+                        <div class="shop-show-active" style="display:block">减价</div>
+                        <div class="shop-show-car">
+                            <div class="shop-show-price">￥<span>3888.00</span></div>
+                            <div class="shop-show-add" shopID=0>加入购物车</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <!-- 楼层四季层 end-->
+
+    <!-- 楼层特价区 start-->
+
+    <div class="shopFloor-sales">
+            <div class="shop-sales layout">
+                <div class="shop-show">
+                    <h1>特价</h1>
+                    <div class="shop-show-top">
+                        <div class="shop-show-top-l f-l">Sales OFF</div>
+                        <div class="shop-show-top-r f-r">
+                            <div class="shop-sales-r f-r"> > </div>
+                            <div class="shop-sales-l f-r"> < </div>
+                        </div>
+                    </div>
+                    <div class="shop-show-box">
+                        <ul class="shop-show-bot shop-sales-in">
+                            
+                            <!-- <li class="shop-show-bot-in shop-sales-li f-l">
+                                <a class="shop-show-img" href="detail.html"><img src="https://sundan.com/public/images/64/1b/5a/81b5d3a638007534e3e962ffc5600fe31f387c86.jpg" /></a>
+                                <div class="shop-show-title">【黑色和极光色现货】华为（HUAWEI）P20 6GB+128GB AI智慧全面屏 全网通 移动联通电信4G手机EML-AL00</div>
+                                <div class="shop-show-par">● 麒麟970智慧芯片,AI摄影大师</div>
+                                <div class="shop-show-price">￥<span>3888.00</span></div>
+                                <div class="shop-show-active" style="display:none"></div>
+                                <div class="shop-show-car">
+                                    <div class="shop-show-price">￥<span>3888.00</span></div>
+                                    <div class="shop-show-add" shopID=0>加入购物车</div>
+                                </div>
+                            </li> -->
+                            
+                                                     
+                        </ul>
+                    </div>
+                    <a class="shop-sales-bot" href="#"><img src="https://www.sundan.com/public/images/be/a5/2e/d4ea4337166b6d5f3568659af1caf55792026dd8.jpg"/></a>
+                </div>
+            </div>
+        </div>
+
+    <!-- 楼层特价区 end-->
+
+    <!--底部公共部分  -->
+    <div class="footer"></div>
+
+
+
+
+</body>
+<script src="./libs/jquery.js"></script>
+<script src="./js/load.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/index.js"></script>
+<script>
+
+
+</script>
+
+</html>

@@ -1,0 +1,126 @@
+
+.public-classify{
+    display: none;
+}
+.main-nav-right{
+    display: none;
+}
+
+/* 错误提示框 */
+
+.error-warning{
+    position:fixed;
+    left:40%;
+    top: 40%;
+    border: 1px solid #00bbd7;
+    border-radius: 6px;
+    padding: 30px 50px;
+    background: #ffffff;
+    display: none;
+    text-align: center;
+    max-width: 100px;
+    box-shadow: 2px 2px 10px #aaaaaa;
+}
+
+
+
+.login{
+    height: 600px;
+    width: 100%;
+    min-width: 1500px;
+    background: url(https://www.sundan.com/public/images/fe/f1/bf/cac7b0e6fa52ef04f54631efce65c7215acce7af.jpg) no-repeat center;
+    background-size: auto 600px;
+}
+.login-in{
+    height: 450px;
+    padding-top: 50px;
+}
+.login-main{
+    float: right;
+    height: 360px;
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 320px;
+    background: #ffffff; 
+    margin-right: 70px;
+    margin-top: 50px;
+    color: rgb(49,49,49);
+}
+.login-main h2{
+    font-weight: normal;
+    display: block;
+    margin-bottom: 30px;
+}
+.logname{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #cccccc;
+}
+
+.logname span{
+    float: left;
+    height: 40px;
+    width: 40px;
+     background:rgb(243,243,243) url(https://sundan.com/themes/shundian/images/login_name.png) no-repeat center;
+     margin-right: 2px;
+}
+.login-name{
+    border: none;
+    height: 38px;
+    width: 258px;
+   outline: none;
+}
+.name-error{
+    height: 16px;
+    color:red;
+    padding-left: 5px;
+}
+.pass-error{
+    height: 16px;
+    color:red;
+    padding-left: 5px;
+}
+.logpass{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #cccccc;
+}
+
+.logpass span{
+    float: left;
+    height: 40px;
+    width: 40px;
+     background:rgb(243,243,243) url(https://sundan.com/themes/shundian/images/member-password.png) no-repeat center;
+     margin-right: 2px;
+}
+.login-pass{
+    border: none;
+    height: 38px;
+    width: 258px;
+   outline: none;
+}
+.loghelp{
+    height: 20px;
+    width: 300px; 
+    line-height: 20px; 
+    margin-bottom: 12px;
+}
+.loghelp a{
+    color: rgb(49,49,49);
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+}
+.loghelp a:last-child{
+    float: right;
+}
+.btn{
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    color: snow;
+    background: #00bbd7;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}

@@ -1,0 +1,87 @@
+[{
+        "tit1": "推荐",
+        "tit2": "RECOMMEND",
+        "tit3": ["More+", "新品", "电动牙刷", "音箱", "相机", "笔记本电脑"],
+        "list": [
+            ["001", "https://sundan.com/public/images/ec/7f/b9/4ffbbf481f400d327ee64f04bb10467efe539b85.jpg", "【黑色和极光色现货】华为（HUAWEI）P20 6GB+128GB AI智慧全面屏 全网通 移动联通电信4G手机EML-AL00", "● 麒麟970智慧芯片,AI摄影大师", "3888.00", "block", "减价"],
+            ["002", "https://sundan.com/public/images/ec/97/3e/285faf17d77ae3043ab609a6f6b8ec53337c55b9.jpg", "Apple iPad Pro 11英寸 WLAN版 256GB MTXR2CH/A（银色）【一个ID限购一台】", "● 按支付顺序安排发货，一个ID限购一台，超量退款或顺延到下一批到货", "7699.00", "block", "新品"],
+            ["003", "https://sundan.com/public/images/ac/08/e8/295f3e91436f10e92ee635902d0488a4ff230c07.jpg", "Apple MacBook Air 13.3英寸笔记本 MREC2CH/A（i5/8GB/256GB/集成显卡）（金色）【一个ID限购一台】", "● 按支付顺序安排发货，一个ID限购一台，超量退款或顺延到下一批到货", "11099.00", "block", "新品"],
+            ["004", "https://www.sundan.com/public/images/15/1b/b9/5d6068ff525af59b4429b767e8d744238a608fd4.jpg", "iPhone XR 256GB 移动联通电信4G 双卡双待【每个ID限购一台】", "● 支持双卡双待", "7899.00", "none", ""],
+            ["005", "https://www.sundan.com/public/images/3d/f5/72/8eaa5ecdfa3af2195129b95bd6c036b908781891.jpg", "方太（FOTILE） 侧吸油烟机JQ29TS + 嵌入式炉具ZT-GT6BE 套装（天然气)", "侧吸油烟机JQ29TS：", "3999.00", "none", ""],
+            ["006", "https://sundan.com/public/images/3a/a6/53/3b4df5d6678757968caee49b8d70a290451bb549.jpg", "产地日本 进口夏普（SHARP）452升 日本原装 进口 六门冰箱SJ-XF47A-C （梦幻粉）", "● 自动制冰功能", "12499.00", "black", "打折"],
+            ["007", "https://sundan.com/public/images/fb/c0/89/ad6fc61b74eee60cd9374784069315207c6efe75.jpg", "海信（Hisense）55英寸 ULED 4K 智能曲面电视 55MU8600UC", "● Hi-view Pro画质引擎芯片", "5999.00", "none", ""],
+            ["008", "https://sundan.com/public/images/3e/54/9d/763903c1a1c89b1d325fd5f7a13fe56117b17b41.jpg", "微软（Microsoft）Surface go10英寸平板电脑（英特尔奔腾金牌处理器4415Y 4G 64G）MHN-00009 （亮铂金）", "● PixelSense显示屏，1800×1200像素", "2818.00", "none", ""]
+        ]
+
+    }, {
+        "tit1": "手机",
+        "tit2": "Phone",
+        "tit3": ["Mate20", "iPone", "小米8", "荣耀"],
+        "list": [
+            ["001", "https://sundan.com/public/images/ec/7f/b9/4ffbbf481f400d327ee64f04bb10467efe539b85.jpg", "【黑色和极光色现货】华为（HUAWEI）P20 6GB+128GB AI智慧全面屏 全网通 移动联通电信4G手机EML-AL00", "● 麒麟970智慧芯片,AI摄影大师", "3888.00", "block", "减价"],
+            ["004", "https://www.sundan.com/public/images/15/1b/b9/5d6068ff525af59b4429b767e8d744238a608fd4.jpg", "iPhone XR 256GB 移动联通电信4G 双卡双待【每个ID限购一台】", "● 支持双卡双待", "7899.00", "none", ""],
+            ["009", "https://www.sundan.com/public/images/76/53/5a/eac44e6d9e50275d507194fa4cf04dd1c2758cda.jpg?1528163098#h", "小米8 6G+128G全网通全面屏娱乐手机 双卡双待（黑色） （每个ID限购1台）", "● AI 变焦双摄", "2699.00", "none", ""],
+            ["010", "https://www.sundan.com/public/images/3b/d3/a2/c031547ab099e3367beca37aa186b21c4719fc16.jpg?1536658520#h", "vivo X23 全网通8GB+128GB 移动联通电信娱乐手机 V1809A", "● 骁龙670，八核处理器", "3498.00", "block", "减价"],
+            ["011", "https://sundan.com/public/images/ec/7f/b9/4ffbbf481f400d327ee64f04bb10467efe539b85.jpg", "华为（HUAWEI）P20 6GB+64GB AI智慧全面屏 全网通 移动联通电信4G手机 双卡双待 EML-AL00", "● 除极光色以外，其他颜色可再领取100元优惠券，下单时使用，领券中心", "3388.00", "block", "减价"],
+            ["012", "https://www.sundan.com/public/images/d4/ad/a4/9eedb029b6d8b4696a02d5f9507b2890f5a6e32b.jpg?1510641475#h", "华为（HUAWEI）Mate10 Pro 6GB+64GB 全网通 移动联通电信4G手机BLA-AL00", "● 搭载人工智能芯片，强劲续航", "3599.00", "block", "减价"],
+            ["013", "https://sundan.com/public/images/d3/b9/54/88dcb19becf7f6bb73e23e51b45cb10f2b45982c.jpg", "OPPO Find X Super VOOC超级闪充版 全网通8GB+256GB 移动联通电信 双卡双待娱乐手机PAHM00(蓝)", "● 骁龙845,八核处理器", "5499.00", "block", "送赠品"],
+            ["014", "https://sundan.com/public/images/5b/8f/fc/3ef867fdc1f3cff48408eeea57e68d36dbe524d1.jpg", "华为（HUAWEI）nova3i 全网通6GB+128GB实用手机INE-AL00", "● HUAWEI Kirin 710（麒麟710）", "2399.00", "block", "减价"]
+        ]
+
+    }, {
+        "tit1": "电脑",
+        "tit2": "Computure",
+        "tit3": ["More+"],
+        "list": [
+            ["015", "https://www.sundan.com/public/images/24/9a/69/da5f2e519a5184a9beae5931b8917c06355f05a1.jpg?1515380305#h", "戴尔（DELL）灵越燃7000 15.6英寸笔记本电脑（i7-8550U/ 8G系统内存/ 128GB SSD+1TB/ MX150 4G独显）(金色)", "● i7-8550U处理器", "6299.00", "none", ""],
+            ["016", "https://sundan.com/public/images/90/cb/93/f6e6957cea41aadb144f6ea16bfe3af53d68b789.jpg", "索尼（SONY）PlayStation PS4 Pro 1TB家庭游戏机 CUH-7109B B01(黑色) ", "性能显著提升", "2999.00", "none", ""],
+            ["017", "https://sundan.com/public/images/0b/b6/d1/2afd3ea2b67c4ecf5d23f4388c92b98accb7e37e.jpg", "惠普（HP）15.6英寸Pav Gaming Laptop15-cx0067TX（i5-8300H 128GB+1TB 双硬盘）笔记本电脑（黑色）", "● 128G+1TB双硬盘，速度与容量并存", "6599.00", "none", ""],
+            ["018", "https://sundan.com/public/images/ae/94/98/b10d1437a2daca8060a95a87342195d3e25b8816.jpg", "微软（Microsoft）Surface Pro6 12.3英寸平板电脑LGP-00009（铂金色）", "● PixelSense显示屏，分辨率2736x1824", "7188.00", "block", "减价"]
+        ]
+
+    }, {
+        "tit1": "小家电",
+        "tit2": "Household",
+        "tit3": ["More+", "电饭煲", "豆浆机", "微波炉"],
+        "list": [
+            ["019", "https://www.sundan.com/public/images/f8/b9/0f/81bcb96db870a08f4a2a86b93f2ec15ca5070160.jpg?1526441368#h", "产地韩国 进口惠人（HUROM）原汁机 HUO12NSM", "● 新增调味阀，提升出汁率", "1111.00", "none", ""],
+            ["020", "https://sundan.com/public/images/7e/6d/17/820c83fa34317737f3e03cb443b58e0547545f1d.jpg", "产地日本 进口松下（Panasonic）5升 IH电饭煲 SR-PXC184KSQ", "● 5段IH大火力电磁加热", "5008.00", "none", ""],
+            ["021", "https://sundan.com/public/images/c2/23/01/649e67b02f7fb1fd1bb1170e448d0db86fd07bcc.jpg", "美的（Midea） 23升 微波炉 M3-232B （黑色）", "● 快捷加热,纳米银内胆", "899.00", "none", ""],
+            ["022", "https://sundan.com/public/images/11/1c/cf/677d9bcd0913fbbe88a5db6bc6472c450bd2295a.jpg", "飞利浦（ Philips）1.7L 可保温电水壶 HD9356/98（香槟金色）", "● 带保温功能", "299.00", "none", ""]
+        ]
+
+    }, {
+        "tit1": "影音",
+        "tit2": "Audiovisual",
+        "tit3": ["More+", "耳机", "音箱"],
+        "list": [
+            ["023", "https://sundan.com/public/images/f9/8e/98/588af72d194086622937a346d6326ddc81137580.jpg?1532066110#h", "马歇尔（Marshall）摇滚重低音无线蓝牙音箱Stanmore（棕色）", "● APT-X蓝牙连接技术", "3299.00", "block", "减价"],
+            ["024", "https://sundan.com/public/images/22/88/d1/d2a76de91733cc53571bd6c6c9ad881965feb93e.jpg", "JBL 迷你组合 音响 MS402（实木黄）", "● 搭配NFC", "1699.00", "none", ""],
+            ["025", "https://sundan.com/public/images/3c/92/24/ad2172a164ccc0ae5a721a558c17f6472be90fa7.jpg", "JBL颈挂式智能蓝牙降噪耳机150NC（黑色）", "● 磁吸式单元，易收纳", "1339.00", "none", ""],
+            ["026", "https://sundan.com/public/images/1b/04/97/8ce030ee3bbe9dc9b4bac0cc0d120015554e2120.jpg", "Libratone Track+ 颈挂式入耳式智能无线降噪运动蓝牙耳机", "● IPX4级防汗防雨", "1298.00", "none", ""]
+        ]
+
+    }, {
+        "tit1": "套装",
+        "tit2": "Preferential",
+        "tit3": [],
+        "list": [
+            ["005", "https://www.sundan.com/public/images/3d/f5/72/8eaa5ecdfa3af2195129b95bd6c036b908781891.jpg", "方太（FOTILE） 侧吸油烟机JQ29TS + 嵌入式炉具ZT-GT6BE 套装（天然气)", "侧吸油烟机JQ29TS：", "3999.00", "none", ""],
+            ["027", "https://sundan.com/public/images/71/ae/04/e90d24e3642a1c90b8126ca2f7abaec023fcd07e.jpg", "西屋（Westinghouse）加热破壁机WFB-D16 + 北鼎（Buydeem）电水壶K208 (香槟黄色)", "● 西屋加热家用多功能全自动破壁机WFB-D16：黑晶触控面板，方便快捷；360°自动防溢，安全放心；8叶精钢刀头，口感更细腻；12小时智能预约，更贴心；破壁磨粉功能，释放营养", "3580.00", "none", ""],
+            ["028", "https://sundan.com/public/images/49/51/a5/d9a212a6144448ef0a9fead117987408270caa2c.jpg", "松下（Panasonic）3升IH电饭煲SR-SPZ103KSQ + 云米（VIOMI）互联网智能净水器Mee-MR432（签名版）", "● 进口松下3升IH电饭煲SR-SPZ103KSQ：钻石金粉内锅；科技电饭煲；日式米饭效果", "8699.00", "none", ""],
+            ["029", "https://sundan.com/public/images/81/9c/cf/8c32d279526918940b63693a05751cdac7643b44.jpg", "套装：飞利浦（Philips）西式室内电炙烤炉HD6371/91 + 真空破壁料理机HR3752/00", "● 套装包括一台烤炉HD6371/91，一台破壁机HR3752/00", "2999.00", "none", ""]
+        ]
+
+    }, {
+        "tit1": "聚划算",
+        "tit2": "Promotion",
+        "tit3": ["More+", "寻宝顺电", "清仓折扣", "手机惠"],
+        "list": [
+            ["030", "https://sundan.com/public/images/0d/ba/84/3d3945adb108748131ad24d18d9cef15b11c58bb.jpg", "【特价商品，非质量问题不退不换，售完即止】松下（Panasonic）0.8L 电水壶家用不锈钢自动断电防空烧 NC-HKT081PSQ(粉色)【清仓折扣】", "● 快速沸腾，即烧即饮", "399.00", "block", "打折"],
+            ["031", "https://sundan.com/public/images/98/8c/40/d591b41ebd2bf729604de876119c56e9a18ff934.jpg", "【特价商品，非质量问题不退不换，售完即止】华为（HUAWEI）nova 3e 4GB+128GB 全面屏 全网通 移动联通电信4G手机 ANE-AL00【每个ID限购1台】【清仓折扣】", "● 前置2400万自然美妆", "1899.00", "block", "打折"],
+            ["032", "https://sundan.com/public/images/52/19/68/8454b5c41c0ceec41666494cff95807b4c1501fd.jpg", "猫王（MAOKING）小王子FM便携式蓝牙音箱 收音机（胡桃木）", "● 温润原木，执着手工", "399.00", "none", ""]
+        ]
+
+    }
+
+]

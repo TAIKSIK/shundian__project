@@ -1,0 +1,761 @@
+@charset "UTF-8";
+
+html {
+	background: #fff
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+fieldset,
+form,
+input,
+select,
+textarea,
+button,
+figure {
+	margin: 0
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-size: 75%;
+	line-height: 1.5
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: ''
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,
+a img,
+iframe {
+	border: 0 none
+}
+
+address,
+em,
+i {
+	font-style: normal
+}
+
+abbr,
+acronym {
+	font-variant: normal
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+
+:active {
+	outline: 0 none
+}
+
+input,
+select,
+button {
+	vertical-align: middle
+}
+
+input,
+select,
+button,
+textarea {
+	font-size: 100%;
+	font-family: inherit
+}
+
+button {
+	*overflow: visible
+}
+
+button::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=submit]::-moz-focus-inner,
+input[type=file]>input[type=button]::-moz-focus-inner {
+	border: 0 none;
+	padding: 0
+}
+
+::-webkit-input-placeholder {
+	color: #999
+}
+
+::-moz-placeholder {
+	color: #999
+}
+
+:-moz-placeholder {
+	color: #999
+}
+
+:-ms-input-placeholder {
+	color: #999
+}
+
+.placeholder {
+	color: #999
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+
+a:hover {
+	color: rgb(0, 187, 215)
+}
+
+.f-l {
+	float: left
+}
+
+.f-r {
+	float: right
+}
+
+.layout {
+	width: 1250px;
+	margin: 0 auto
+}
+
+
+/* 头部可关闭活动页 */
+.head-inOut {
+	height: 100px;
+	width: 100%;
+	min-width: 1500px;
+}
+.head-inOut-box{
+	height: 100px;
+	width: 100%;
+	min-width: 1500px;
+	position: relative
+}
+
+.head-inOut a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(https://www.sundan.com/prefecture/1111top20181031.jpg)no-repeat center;
+	background-size: auto 100%
+}
+
+.head-close {
+	cursor: default;
+	position: absolute;
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+	color: snow;
+	font-size: 30px;
+	right: 80px
+}
+/* 网页关灯样式 */
+.light-off{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 12;
+    display: none;
+}
+
+/* 头部导航条 */
+.header {
+	width: 100%;
+	min-width: 1500px;
+	height: 40px;
+	background: #f0f0f0;
+}
+
+.head-nav {
+	height: 100%;
+	font-size: 14px;
+	line-height: 40px;
+	color: #666666
+}
+
+.head-right {
+	height: 100%;
+	
+}
+
+.head-right li {
+	float: right;
+	height: 100%;
+	padding: 0 5px;
+	cursor: pointer;
+	background: url(../images/head-1_03.jpg) no-repeat left center
+}
+
+.nav-list {
+	height: 100%;
+	position: relative;
+}
+
+.nav-list-in {
+	position: absolute;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	display: none;
+	border-top: none;
+	background: #ffffff
+}
+
+.nav-list-top {
+	padding-right: 20px;
+	padding-left: 5px
+}
+
+.nav-mark {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	background: url(https://sundan.com/themes/shundian/images/hy-down.png) no-repeat center
+}
+
+.nav-list-in a {
+	float: left;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.head-right li:hover .nav-list {
+	background: #ffffff
+}
+
+.head-right li:hover .nav-list-top {
+	color: rgb(0, 187, 215)
+}
+
+.head-right li:hover .nav-mark {
+	background: url(https://sundan.com/themes/shundian/images/hy-up.png) no-repeat center
+}
+
+.head-right li:hover .nav-list-in {
+	display: block
+}
+
+.nav-list-in a:hover {
+	color: rgb(0, 187, 215)
+}
+
+/*搜索框所在页*/
+.head-search{
+	width: 100%;
+	min-width: 1500px;
+	background: #ffffff;
+}
+.search {
+	height: 65px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 15px
+}
+
+.search-left {
+	height: 50px;
+	width: 150px;
+	background: url(https://sundan.com/public/images/b3/f1/d6/90e6da5108a61d0cefc48533af14682cb5ccc059.png?1496294362#w)no-repeat center
+}
+
+.search-right {
+	width: 1050px;
+	height: 45px
+}
+
+.search-right-1 {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #cccccc;
+	border-right: none;
+	background: url(https://sundan.com/themes/shundian/images/search.png) no-repeat center
+}
+
+.search-right-2 {
+	height: 38px;
+	width: 600px;
+	border: 1px solid #cccccc;
+	border-left: none;
+	outline: none
+}
+
+.search-right-3 {
+	height: 42px;
+	width: 120px;
+	border: none;
+	background: #00bbd7;
+	color: snow;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.search-right-4 {
+	height: 42px;
+	width: 65px;
+	background: #fc3538;
+	color: snow;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	margin: 0 20px 0 60px
+}
+
+.search-right-4:hover {
+	color: snow;
+}
+
+.search-right-5 {
+	height: 40px;
+	width: 65px;
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+	margin-right: 20px
+}
+
+.search-right-5:hover {
+	color: #00bbd7;
+}
+.search-vip {
+	height: 40px;
+	width: 140px;
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: #666666;
+	margin: 0 20px 0 40px;
+	background: #ffffff url(https://sundan.com/themes/shundian/images/myuname.png) no-repeat 5px center;
+	padding-left: 30px;
+	display: none;
+	/* position: relative; */
+}
+.search-vip:hover .del-vip{
+	display: block;
+}
+.del-vip{
+	position: absolute;
+	height: 40px;
+	width: 170px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: #666666; 
+	cursor: pointer;
+	margin-left: -31px;
+	display: none;
+}
+.del-vip:hover{
+	color: #00bbd7;
+	border: 1px solid #00bbd7;
+}
+
+
+
+.search-vip:hover{
+	border: 1px solid #00bbd7;
+}
+
+
+.search-right-6 {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #cccccc;
+	background: url(https://sundan.com/themes/shundian/images/index_cart.png)no-repeat center;
+	position: relative;
+	cursor: pointer;
+}
+
+.car-num {
+	position: absolute;
+	display: block;
+	height: 16px;
+	width: 20px;
+	border-radius: 8px;
+	background: #fc3538;
+	color: snow;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	margin-left: 40px
+}
+
+.search-recom {
+	height: 20px;
+	float: left;
+	margin-left: 50px;
+	padding-top: 10px;
+	margin-top: -10px
+}
+
+.search-recom-in {
+	height: 20px;
+}
+
+.search-recom-in li {
+	float: left;
+	padding-right: 12px;
+	padding-left: 12px;
+	background: url(../images/head-1_03.jpg) no-repeat right center;
+	background-size: 1px 15px
+}
+
+.search-recom-in li a {
+	color: #999999;
+	text-decoration: none
+}
+
+.search-recom-in li a:hover {
+	color: #00bbd7
+}
+
+/*主导航条及二级菜单*/
+.main-nav {
+	width: 100%;
+	min-width: 1500px;
+	height: 40px;
+	background: rgb(51, 53, 61);
+	z-index: 20;
+}
+
+.main-nav-in {
+	height: 40px;
+	line-height: 40px
+}
+
+.main-nav-in dd {
+	height: 40px;
+	float: left;
+	padding: 0 20px
+}
+
+.main-nav-in dd:hover {
+	background: #00bbd7
+}
+
+.main-nav-in dd a {
+	text-decoration: none;
+	font-size: 14px;
+	color: snow
+}
+
+.main-nav-list {
+	cursor: pointer;
+	color: snow;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	background: #2a2c32 url(https://sundan.com/themes/shundian/images/category-handl_sildown.png)no-repeat 160px 10px;
+	position: relative;
+}
+
+.main-nav-classify {
+	position: absolute;
+	height: 378px;
+	width: 200px;
+	z-index: 13;
+}
+
+.classify-in {
+	height: 42px;
+	width: 140px;
+	
+}
+
+.classify-in-a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #333333;
+	text-align: left;
+	padding-left: 60px;
+	font-size: 16px;
+	background:rgba(240, 240, 240, 0.8) url(https://sundan.com/public/images/79/18/88/1ab15b370798c03d274efc75f56f265d5f43e7f1.png) no-repeat 30px center;
+	text-decoration: none;
+}
+
+
+.main-nav-right {
+	position: absolute;
+	left: 200px;
+	height: 378px;
+	width: 800px;
+	background: #ffffff;
+	position: relative;
+	z-index: 13;
+}
+
+.main-nav-right-in {
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 358px;
+	width: 780px;
+
+}
+
+.main-nav-right-in-t {
+	height: 270px;
+	width: 770px;
+	padding-left: 10px
+}
+
+.main-nav-right-in-t li {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	background: snow;
+	line-height: 20px;
+	text-align: left
+}
+
+.main-nav-right-in-t li a {
+	text-decoration: none;
+	color: #959595
+}
+
+.main-nav-right-in-t li>a:hover {
+	color: #00bbd7
+}
+
+.main-nav-right-in-t li span {
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #bbbbbb;
+	padding-bottom: 5px
+}
+
+.main-nav-right-in-t li span a {
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+}
+
+.main-nav-right-in-t li>a {
+	display: block;
+	height: 20px;
+	width: 100%;
+	padding: 4px 0;
+}
+
+.main-nav-right-in-b {
+	height: 90px;
+	width: 100%;
+}
+
+.main-nav-right-in-b a {
+	float: left;
+	height: 60px;
+	width: 200px;
+	margin-right: 50px
+}
+
+.main-nav-right-in-b a img {
+	height: 100%;
+	width: 100%
+}
+
+/* 底部公共部分 */
+
+.footer {
+	width: 100%;
+	min-width: 1500px;
+}
+
+.foot {
+	width: 100%;
+}
+
+.foot-s1 {
+	width: 100%;	
+	height: 95px;
+	background: url(../images/foot-1.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+.foot-s2 {
+	height: 150px;
+	background: url(../images/foot-2.png) no-repeat center;
+	background-size: 100% 100%;
+	border-bottom: 1px solid #cccccc;
+	position: relative
+}
+
+.foot-s2 a {
+	position: absolute;
+	display: block;
+	height: 20px;
+	width: 150px;
+	right: 150px;
+	bottom: 25px
+
+}
+.foot-s3{
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+	background: url(../images/foot-3.png) no-repeat right center;
+}
+.foot-s3-top{
+	height: 250px;
+	width: 100%;
+}
+.foot-s3-top li{
+	padding-left: 20px;
+	padding-top: 20px;
+	height: 100%;
+	width: 200px;
+	float: left;
+}
+.foot-s3-top li a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 20px;
+	color: #666666;
+	text-decoration: none;
+
+}
+.foot-s3-top h3{
+	display: block;
+	margin-bottom: 20px;
+}
+.foot-s3-top li a:hover{
+	color:#00bbd7
+}
+
+.foot-s3-in{
+	font-weight: 700;
+}
+.foot-s3-top-r{
+	height: 90px;
+	width: 160px;
+	margin-top: 10px;
+
+}
+.foot-s3-top .foot-s3-top-r a{
+	float: left;
+	height:30px;
+	width: 70px;
+
+}
+
+.foot-s3-bot{
+	height: 60px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.foot-s3-bot a{
+	color: #666666;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.foot-s3-bot a:hover{
+	color:#00bbd7
+}
+.foot-s4{
+	height: 85px;
+	padding-top:30px;
+	text-align: center	
+}
+.foot-s4-bot{
+	height: 40px;
+	width:650px;
+	margin: 20px auto;
+	margin-bottom: 5px
+}
+.foot-s4-bot a{
+	float: left;
+	height:40px;
+	text-align: right;
+	line-height: 40px;
+	width: 110px;
+	padding-right: 18px;
+	border-right: 1px solid #cccccc;
+	color: #333333;
+	text-decoration: none
+}
+.foot-s4-bot a:nth-child(1){
+	background: url(https://sundan.com/themes/shundian/images/police.png)no-repeat 20px center;
+}
+.foot-s4-bot a:nth-child(2){
+	background: url(https://sundan.com/themes/shundian/images/gaju.png)no-repeat 10px center;
+}
+.foot-s4-bot a:nth-child(3){
+	background: url(https://sundan.com/themes/shundian/images/gongshang.png)no-repeat 20px center;
+}
+.foot-s4-bot a:nth-child(4){
+	background: url(https://sundan.com/themes/shundian/images/xinlangweibo.png)no-repeat 20px center;
+	position: relative;
+}
+.foot-s4-bot a:nth-child(5){
+	background: url(https://sundan.com/themes/shundian/images/weixin_footer.png)no-repeat 20px center;
+	border: none;
+	position: relative;
+}
+

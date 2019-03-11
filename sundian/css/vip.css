@@ -1,0 +1,203 @@
+.public-classify{
+    display: none;
+}
+.main-nav-right{
+    display: none;
+}
+
+/* 会员页面 */
+.vip{
+    width: 100%;
+    min-width: 1500px;
+    overflow: hidden;
+    background: rgb(246,246,246);
+}
+.vip-top{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+.vip-img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid #cccccc;
+    border-radius: 61px;
+    margin-left: 180px;
+    background: #00bbd7 url(https://sundan.com/themes/shundian/widgets/member_center/images/tx01.png) no-repeat center;
+    background-size: 80px 80px;
+    margin-right: 50px;
+}
+.vip-name{
+    height: 90px;
+    width: 200px;
+}
+.vip-user{
+    font-size: 30px;
+}
+.vip-name p{
+    height: 30px;
+    font-size: 20px;
+    padding-left:30px;
+    background: url(https://sundan.com/public/images/74/c8/ca/cb76522f3cef0036f16b420a8b0161d0c87b4386.png?1480117695#w) no-repeat left center;
+    background-size:30px 30px;
+}
+.vip-wel{
+    height: 90px;
+    width: 650px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+.vip-center{
+    overflow: hidden;
+}
+.vip-left{
+    width: 180px;
+    margin-right: 20px;
+    overflow: hidden;
+    background: black;
+    color: snow;
+    font-size: 14px;
+    padding: 10px;
+}
+.vip-left li{
+    margin-top: 12px;
+    cursor: pointer;
+}
+.vip-left li:nth-child(1) span{
+    display: block;
+    padding-left: 40px;
+    
+    background: url(https://sundan.com/themes/shundian/images/Transaction_management.png) no-repeat 10px center;
+}
+.vip-left li:nth-child(2) span{
+    display: block;
+    padding-left: 40px;
+    background: url(https://sundan.com/themes/shundian/images/iconfont-fuwu.png) no-repeat 5px center;
+}
+.vip-left li:nth-child(3) span{
+    display: block;
+    padding-left: 40px;
+    background: url(https://sundan.com/themes/shundian/images/My_account.png) no-repeat 10px center;
+}
+.vip-left li:nth-child(4) span{
+    display: block;
+    padding-left: 40px;
+    background: url(https://sundan.com/themes/shundian/images/Personal-information-management.png) no-repeat 10px center;
+}
+.vip-left-in{
+    padding-bottom: 20px;
+    padding-top: 10px;  
+}
+.vip-left-in a{
+    display: block;
+    padding-left: 40px;
+    height: 20px;
+    color: snow;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.vip-left-in a:hover{
+    color: #00bbd7;
+}
+
+
+
+.vip-right{
+    width: 1000px;
+    overflow: hidden;
+}
+.vip-right-t{
+    height: 178px;
+    border: 1px solid rgb(255,205,108);
+    background: rgb(255,251,230);
+
+}
+.vip-right-t dl{
+    height:120px; 
+    padding-top: 20px;
+    padding-left: 30px; 
+    color: rgb(116,118,114)  ;
+}
+.vip-right-t dl dt{
+    height: 40px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    font-size: 18px;   
+}
+.vip-right-t dl dd{
+    float: left;
+    width:450px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.vip-right-t a{
+    color: #00bbd7;
+    text-decoration: none;
+}
+
+.shop-warn{
+    height: 36px;
+    padding-left: 30px;
+    line-height: 36px;
+    border-top: 1px solid rgb(255,205,108);
+    background: rgb(255,255,217);
+}
+.shop-warn a{
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.shop-warn a span{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: #aaaaaa;
+    color: snow;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.vip-right-c{
+    margin-top: 10px;
+    width: 100%;
+    background: #ffffff;
+}
+.vip-right-b{
+    margin-top: 10px;
+    width: 100%;
+    background: #ffffff;
+}
+.vip-tit{
+    height: 56px;
+    line-height: 56px;
+    padding-left: 20px;
+    background: rgb(229,229,229);
+    color: rgb(116,118,114);
+    font-size: 18px;
+}
+.vip-naka{
+    width: 100%;
+    min-height:500px;
+    text-align: center;
+    padding-top:50px; 
+}
+
+.vip-right-user{
+    color: red;
+}
+.color-red{
+    color: red;
+}
+.color-black{
+    color:black;
+    font-weight: 700;
+}

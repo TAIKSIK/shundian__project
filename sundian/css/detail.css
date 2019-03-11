@@ -1,0 +1,870 @@
+
+.public-classify{
+    display: none;
+}
+.main-nav-right{
+    display: none;
+}
+/* 中间固定加入购物车提示模态框 */
+.moudle{
+    position: fixed;
+    left: 35%;
+    top: 36%;
+    height: 200px;
+    width: 500px;
+    z-index: 30;
+    background:#ffffff;
+    box-shadow: 2px 2px 10px #666666;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    color: #00bbd7;
+    display: none;
+}
+.moudle-close{
+    color:#cccccc;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.moudle-con{
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    color:black;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+.moudle-go{
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    color:snow;
+    text-decoration: none;
+    font-size: 20px;
+    background: #00bbd7;
+}
+.moudle-go:hover{
+    color: snow;
+}
+
+
+.fix-right {
+    width: 40px;
+    height: 100%;
+    min-height: 390px;
+    background: #000000;
+    position: fixed;
+    right: 0;
+    z-index: 20;
+    padding-top: 150px;
+}
+.fix-right>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.fix-right>a:nth-of-type(1){
+    height: 120px;
+    background: url(https://sundan.com/themes/shundian/images/index_cart_fix.png)no-repeat center 10px;
+    position: relative;
+}
+
+
+/* 登录框 点击右侧购物车未登录显示*/
+.log-close{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.login-main{
+    position: absolute;
+    height: 360px;
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 320px;
+    background: #ffffff; 
+    margin-right: 70px;
+    margin-top: -100px;
+    color: rgb(49,49,49);
+    left: -350px;
+    z-index: 20;
+    display: none;
+}
+.login-main h2{
+    font-weight: normal;
+    display: block;
+    margin-bottom: 30px;
+    color: rgb(49,49,49);
+    text-decoration: none;
+}
+.logname{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #cccccc;
+}
+
+.logname span{
+    float: left;
+    height: 40px;
+    width: 40px;
+     background:rgb(243,243,243) url(https://sundan.com/themes/shundian/images/login_name.png) no-repeat center;
+     margin-right: 2px;
+}
+.login-name{
+    border: none;
+    height: 38px;
+    width: 258px;
+   outline: none;
+}
+.name-error{
+    height: 16px;
+    color:red;
+    padding-left: 5px;
+}
+.pass-error{
+    height: 16px;
+    color:red;
+    padding-left: 5px;
+}
+.logpass{
+    height: 40px;
+    width: 300px;
+    border: 1px solid #cccccc;
+}
+
+.logpass span{
+    float: left;
+    height: 40px;
+    width: 40px;
+     background:rgb(243,243,243) url(https://sundan.com/themes/shundian/images/member-password.png) no-repeat center;
+     margin-right: 2px;
+}
+.login-pass{
+    border: none;
+    height: 38px;
+    width: 258px;
+   outline: none;
+}
+.loghelp{
+    height: 20px;
+    width: 300px; 
+    line-height: 20px; 
+    margin-bottom: 12px;
+}
+.loghelp a{
+    color: rgb(49,49,49);
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+}
+.loghelp a:last-child{
+    float: right;
+}
+.btn{
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    color: snow;
+    background: #00bbd7;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* 登录框end */
+
+.fix-right>a:nth-of-type(2){
+    background: url(https://sundan.com/themes/shundian/images/index_favourite_right.png)no-repeat center 15px;
+}
+.fix-right>a:nth-of-type(3){
+    height: 110px;
+    background: url(https://sundan.com/themes/shundian/images/index_fix_right_kefu.png)no-repeat center 10px;
+}
+.fix-right>a:nth-of-type(4){
+    background: url(https://sundan.com/themes/shundian/images/index_fix_erweima.png)no-repeat center 15px;
+    margin-top: 170px;
+    position: relative;
+}
+.fix-right>a:nth-of-type(5){
+    background: url(https://sundan.com/themes/shundian/images/top.png)no-repeat center 15px;
+}
+.fix-right>a:nth-of-type(6){
+    background: url(https://sundan.com/themes/shundian/images/yonghufankui.png)no-repeat center 15px;
+}
+.fix-right>a:hover{
+    background-color: rgba(0, 187, 215, 1)
+}
+.fix-right-t i{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    width: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666666
+}
+.fix-right>a:nth-of-type(1) span{
+    position: absolute;
+    width: 32px;
+    height: 16px;
+    left: 4px;
+    bottom: 10px;
+    background: rgb(255, 64, 1);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+    color: snow
+}
+.fix-right>a:nth-of-type(4) span{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    background: url(../images/sd-erweima.jpg) no-repeat center;
+    background-size: 160px 160px; 
+    background-color: #ffffff;
+    right: 0;
+    bottom: 10px;
+    margin-right: 40px;
+    display: none;
+}
+.fix-right>a:nth-of-type(4) i{
+    position: absolute;
+    border-left: 6px solid #ffffff;
+    border-right: none;
+    border-top:6px solid rgba(0, 187, 215, 0);
+    border-bottom:6px solid rgba(0, 187, 215, 0);
+    left: 0;
+    bottom: 18px;
+    display: none;
+}
+.fix-right>a:nth-of-type(4):hover span{
+    display: block;
+}
+.fix-right>a:nth-of-type(4):hover i{
+    display: block;
+}
+
+
+/* 商品详情 */
+
+.detail{
+    width: 100%;
+    min-width: 1500px;
+    overflow: hidden;
+   
+}
+ 
+ /* 商品详情上部分类导航  */
+
+.detail-nav{
+    height: 40px;
+    width: 100%;
+    min-width: 1500px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc;
+
+}
+.detail-nav a{
+    color: rgb(60,60,60);
+    text-decoration: none;
+}
+
+/* 商品展示部分 */
+
+.detail-show{
+    height: 630px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.detail-show-l{
+    width: 750px;
+    height: 630px;
+    margin-right: 20px;
+    
+}
+
+.detail-show-img{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto; 
+    position: relative;
+    cursor: crosshair;
+}
+.detail-show-img-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.detail-show-img-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.detail-show-img p{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    z-index: 3;
+}
+.detail-show-in{
+    height: 250px;
+    width: 250px;
+    background: #b3d5ff;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.detail-show-out{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: -550px;
+    top: 0;
+    border: 1px solid #cccccc;
+    display: none;
+    overflow: hidden;
+}
+.detail-show-out-img{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+}
+.detail-show-img>img{
+    height: 100%;
+    width: 100%;
+}
+.detail-show-list{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+.detail-show-list-in{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-right: 6px;
+    border: 1px solid #cccccc;
+    
+    box-sizing: border-box;
+    padding: 1px;
+}
+.detail-show-list-in img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.detail-show-mark{
+    height: 50px;
+    width: 100%;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+   
+}
+.detail-show-mark>div{
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+
+}
+.detail-show-mark>div:nth-child(2) a{
+    float: left;
+    height: 50px;
+    width: 50px; 
+}
+.detail-show-mark>div:nth-child(2) a:nth-child(2){
+    width: 30px;
+    background: url(https://sundan.com/themes/shundian/images/share-qq.png) no-repeat center;
+}
+.detail-show-mark>div:nth-child(2) a:nth-child(3){
+    width: 30px;
+    background: url(https://sundan.com/themes/shundian/images/share_weixin.png) no-repeat center;
+}
+.detail-show-mark>div:nth-child(2) a:nth-child(4){
+    width: 30px;
+    background: url(https://sundan.com/themes/shundian/images/share_xinlang.png) no-repeat center;
+}
+
+.detail-show-mark>div:nth-child(3){
+    width: 100px;
+    background: url(https://sundan.com/themes/shundian/images/buy_saomiao.png) no-repeat center;
+    position: relative;
+    z-index: 3;
+}
+.detail-show-mark>div:nth-child(3) span{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: url(https://sundan.com/public/images/16/24/02/741c1ba4341ed2c5a7285dd230899b23f3507e56.png)no-repeat center;
+    margin-top: 35px;
+    background-size: 100px 100px;
+    display: none;
+
+}
+.detail-show-mark>div:nth-child(3):hover span{
+    display: block;
+}
+
+.detail-show-mark>div:nth-child(4){
+    height: 26px;
+    width: 50px;
+    background: #cccccc;
+    color: snow;
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+.detail-show-mark>div:nth-child(4):hover{
+    background: #00bbd7;
+}
+
+
+
+
+
+.detail-show-r{
+    width: 450px;
+    padding-top: 20px;
+    overflow: hidden;
+    color: rgb(102, 102, 102)
+}
+.detail-title{
+    width: 100%;
+    font-size: 20px;
+    color: rgb(50, 50,50);
+}
+.detail-price{
+    height: 60px;
+    width:430px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: red;
+    line-height: 60px;
+    background: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.detail-price span{
+    font-size: 30px;
+}
+.detail-act{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.detail-act span{
+    display: inline-block;
+    height: 20px;
+    width: 36px;
+    background: rgb(0, 172, 255);
+    line-height: 20px;
+    text-align: center;
+    color: snow;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.detail-act a{
+    color: #00bbd7;
+}
+.detail-cap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.detail-cap span{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+    padding: 0 10px 0 10px;
+    border: 2px solid #00bbd7;
+    text-align: center;
+    line-height: 20px;
+}
+
+.detail-num{
+    height: 32px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 32px;
+
+}
+.num-cut{
+    display: inline-block;
+    margin-left: 45px;
+    border: 1px solid #cccccc;
+    height: 33px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+.num-value{
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-right: none;
+    height: 31px;
+    width: 60px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.num-add{
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #cccccc;
+    height: 33px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.detail-num::selection {background: transparent}
+.num-add::selection {background: transparent}
+.num-cut::selection {background: transparent}
+.num-value::selection {background: transparent}
+.num-cut:hover,.num-add:hover{
+    background: rgb(102, 102, 102);
+    color: snow;
+}
+
+.detail-send{
+    height: 26px;
+    width: 100%;
+    line-height: 26px;
+    margin-bottom: 10px;
+
+}
+.detail-send img{
+    display: inline-block;
+    height: 20px;
+    margin:0 10px -6px 10px;
+}
+.detail-send span{
+    color: #00bbd7;
+}
+
+
+.detail-det{
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    line-height: 26px;
+}
+
+.detail-get{
+    height: 42px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.detail-buy,.detail-car{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: snow;
+    background: rgb(255,83,27);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.detail-car{
+    background: #00bbd7;
+}
+.detail-cust{
+    height: 40px;
+    width: 90px;
+    border: 1px solid #00bbd7;
+    background: url(https://sundan.com/themes/shundian/images/kefu.png) no-repeat 10px center;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: #00bbd7;
+    text-decoration: none;
+}
+.detail-cust:hover{
+    color: snow;
+    background: #00bbd7 url(https://sundan.com/themes/shundian/images/kefu_hover.png)no-repeat 10px center;
+}
+
+/* 商品展示底部介绍部分 */
+.detail-bot{
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.detail-bot-l{
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid #cccccc;
+    color: rgb(102, 102, 102);
+    border-bottom: none;
+}
+.detail-bot-l-tit{
+    height: 40px;
+    width: 280px;
+    padding-left: 20px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 40px;
+    font-size: 16px;
+    background: rgb(240, 240, 240);
+}
+.detail-bot-list{
+    width: 100%;
+    overflow: hidden;
+}
+.detail-bot-list-in{
+    display: block;
+    width: 280px;
+    height: 120px;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.detail-bot-list-in-l{
+    height: 120px;
+    width: 120px;
+}
+.detail-bot-list-in-l img{
+    height:100%;
+    width: 100%;
+}
+.detail-bot-list-in-r{
+    width: 160px;
+    height: 120px;
+}
+.detail-bot-list-in-r p{
+    display: block;
+    width: 140px;
+    margin-left: 20px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    height: 42px;
+    overflow: hidden;
+}
+.detail-bot-list-in-r p:last-child{
+    margin-top: 20px;
+    color: red;
+}
+
+
+
+
+.detail-bot-r{
+    width: 920px;
+    overflow: hidden;
+}
+.detail-bot-r-top{
+    height: 54px;
+    width: 918px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: rgb(97,97,97);
+    border: 1px solid #cccccc;
+    background:#ffffff;
+}
+.detail-bot-r-top li{
+    float: left;
+    height:54px;
+    width: 130px;
+    border-right: 1px solid #cccccc;
+    cursor: pointer; 
+}
+.detail-bot-r-top li:last-child{
+    width: 128px;
+    border: none;
+}
+.detail-bot-r-top li span{
+    display: block;
+    height:52px;
+    width: 100%; 
+}
+.detail-bot-r-bot{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+   
+}
+.detail-bot-inout{
+    width: 100%;
+    overflow: hidden;
+    color: rgb(102, 102, 102);
+   
+}
+.detail-bot-inout:first-child{
+     padding-left: 80px;
+}
+
+.detail-bot-inout img{
+    width: 750px;
+
+}
+.shop-int{
+    width: 750px;
+}
+.shop-int img{
+    display: block;
+    width: 750px;
+}
+.detail-bot-inout-tit1{
+    width: 100%;
+    background: rgb(244, 244, 244);
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+.detail-bot-inout-tit2{
+    border-bottom: 1px solid #cccccc;
+}
+.detail-bot-inout-tit2 h4{
+    padding-left: 20px;
+    background: rgb(247,247,247);
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(51,51,51);
+}
+.detail-bot-inout-tit2 p{
+    display: block;
+    width: 100%;
+    line-height: 30px;
+}
+.detail-bot-inout-tit2 p span{
+    float: left;
+    width: 130px;
+    height: 30px;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.detail-bot-inout-tit2 p i{
+    font-style: normal;
+    display: inline-block;
+    width: 700px;
+    min-height: 30px;
+}
+.sundian-searve{
+    width: 880px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sundian-searve h4{
+    display: block;
+    margin-bottom: 6px;
+}
+.sundian-searve a{
+    color: #00bbd7;
+}
+.sundian-ask{
+    width: 890px;
+    min-height: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.sundian-ask li{
+    float: left;
+    margin-right: 20px;
+    width: 130px;
+    height: 30px;
+    border-right: 1px solid #cccccc;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.sundian-ask li:hover{
+    color: #00bbd7;
+}
+.sundian-ask li:last-child{
+    border: none;
+    background: #00bbd7;
+    color: snow;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    margin-top: -5px;
+}
+.sundian-assess{
+    height: 200px;
+    width: 900px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+.sundian-assess-l{
+    width: 450px;
+    height: 120px;
+    padding-top: 80px;
+}
+.sundian-assess-l i{
+    color: rgb(244,169,2);
+}
+.sundian-assess-l h3{
+    padding-left: 20px;
+}
+.sundian-assess-l p{
+    padding-left: 50px;
+    display: block;
+    margin-top: 16px;
+}
+.sundian-assess-l h3 span{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 50px;
+    color: #cccccc;
+
+}
+.sundian-assess-r{
+    height: 180px;
+    width: 450px;
+    padding-top: 20px;
+}
+
+.sundian-assess-r h3{
+    display: inline-block;
+}
+.sundian-assess-r span{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 50px;
+    font-size: 16px;
+    color: #cccccc;
+}
+.sundian-assess-r div{
+    margin-bottom: 30px;
+}
+.about-sundian{
+    width: 750px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+.about-sundian img{
+    width: 750px;
+}
